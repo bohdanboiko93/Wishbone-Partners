@@ -1,0 +1,50 @@
+.about-firm {
+  max-width: 768px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-firm-title {
+  width: 30%;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 119%;
+  color: #403e3b;
+}
+
+.about-firm-text-wrapper {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #403e3b;
+}
+
+.partner {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.partner_name {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 153%;
+  color: #1b1a1a;
+}
+
+.partner_work {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #645c55;
+}

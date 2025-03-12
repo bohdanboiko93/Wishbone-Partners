@@ -1,0 +1,34 @@
+.reeding_house_section {
+  margin-top: 128px;
+
+  display: block;
+
+  background-image: url("../resources/reeding_house.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+}
+
+.house_text_wrapper {
+  position: absolute;
+  top: 266px;
+  right: 75px;
+  width: 285px;
+}
+
+.reeding_house {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #403e3b;
+}
+
+.reeding_house_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #645c55;
+}

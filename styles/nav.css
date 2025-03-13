@@ -1,0 +1,46 @@
+.nav-box {
+  max-width: 1200px;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 32px;
+  align-items: center;
+}
+
+.logo {
+  width: 17%;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.nav-btn {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #1b1a1a;
+  text-decoration: none;
+}
+
+.get_template {
+  display: block;
+  padding-top: 11px;
+  border-radius: 14px;
+  width: 155px;
+  height: 46px;
+  background: #1b1a1a;
+  text-align: center;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-decoration: none;
+}

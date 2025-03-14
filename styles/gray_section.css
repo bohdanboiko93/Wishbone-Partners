@@ -84,3 +84,13 @@
     align-items: center;
   }
 }
+
+@media (max-width: 436px) {
+  .grey-section-image-box {
+    display: none;
+  }
+
+  .grey-section {
+    height: auto;
+  }
+}

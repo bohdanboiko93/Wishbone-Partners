@@ -103,8 +103,26 @@
 }
 
 @media (max-width: 436px) {
+  .introduce {
+    row-gap: 30px;
+  }
+
+  .introduce-title {
+    font-size: 35px;
+  }
+
+  .introduce_text {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+
   .introduce_text_wrapper {
     margin: 0;
+    padding: 0;
+  }
+
+  .introduce_button {
     padding: 0;
   }
 }

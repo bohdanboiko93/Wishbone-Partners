@@ -71,3 +71,11 @@
     text-underline-offset: 5px;
   }
 }
+
+@media (max-width: 436px) {
+  .before_footer_title_text {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 32px;
+  }
+}

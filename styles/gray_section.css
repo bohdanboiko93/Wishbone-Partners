@@ -59,3 +59,28 @@
   width: calc(50% - 48px);
   object-fit: cover;
 }
+
+@media (max-width: 767px) {
+  .grey-section {
+    padding-top: 0;
+    height: 390px;
+  }
+
+  .grey-section-box {
+    display: block;
+    width: 100%;
+  }
+
+  .grey-section-text-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+  }
+
+  .grey-section-image-box {
+    flex-wrap: nowrap;
+    padding-top: 50px;
+    padding-left: 45px;
+    align-items: center;
+  }
+}

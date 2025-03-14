@@ -32,3 +32,14 @@
   line-height: 150%;
   color: #645c55;
 }
+
+@media (max-width: 767px) {
+  .staircase_section {
+    margin-top: 50px;
+    height: 450px;
+  }
+
+  .staircase_text_wrapper {
+    left: 75px;
+  }
+}

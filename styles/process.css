@@ -59,3 +59,30 @@
   line-height: 160%;
   color: #645c55;
 }
+
+@media (max-width: 767px) {
+  .our-process {
+    margin-top: 25px;
+  }
+
+  .process_title_box_inner {
+    padding-top: 10px;
+    font-size: 32px;
+  }
+
+  .process-types-box {
+    padding-top: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .process_description {
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 142%;
+  }
+
+  .process {
+    width: calc(33.3% - 5px);
+  }
+}

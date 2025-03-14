@@ -44,3 +44,29 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media (max-width: 767px) {
+  .logo {
+    width: 22%;
+  }
+
+  .nav-list {
+    gap: 25px;
+  }
+
+  .nav-btn {
+    font-size: 13px;
+  }
+
+  .get_template {
+    padding-top: 8px;
+    font-size: 13px;
+    width: 120px;
+    height: 35px;
+  }
+
+  .nav-box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

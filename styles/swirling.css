@@ -30,3 +30,13 @@
   line-height: 150%;
   color: #645c55;
 }
+
+@media (max-width: 767px) {
+  .swirling-staircase-section {
+    height: 450px;
+  }
+
+  .swirling_staircase_text_wrapper {
+    top: 200px;
+  }
+}

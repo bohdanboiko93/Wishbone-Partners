@@ -48,3 +48,19 @@
   line-height: 100%;
   color: #645c55;
 }
+
+@media (max-width: 767px) {
+  .about-firm {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about-firm-title {
+    font-size: 28px;
+  }
+
+  .about-firm-text-wrapper {
+    font-size: 14px;
+  }
+}

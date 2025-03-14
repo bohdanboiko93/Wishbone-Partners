@@ -86,3 +86,13 @@
     width: calc(33.3% - 5px);
   }
 }
+
+@media (max-width: 436px) {
+  .process-types-box {
+    flex-direction: column;
+  }
+
+  .process {
+    width: 100%;
+  }
+}

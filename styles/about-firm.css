@@ -64,3 +64,18 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 436px) {
+  .about-firm {
+    display: block;
+  }
+
+  .about-firm-title {
+    width: 100%;
+  }
+
+  .about-firm-text-wrapper {
+    padding-top: 15px;
+    width: 100%;
+  }
+}

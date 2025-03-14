@@ -43,3 +43,31 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (max-width: 767px) {
+  .footer {
+    height: auto;
+  }
+
+  .before_footer_title {
+    display: none;
+  }
+
+  .before-footer-section {
+    text-align: center;
+    margin-top: 50px;
+    height: auto;
+  }
+
+  .before-footer-text-box {
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .before_footer_contact_list {
+    padding-top: 30px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+}

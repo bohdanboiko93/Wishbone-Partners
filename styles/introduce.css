@@ -101,3 +101,10 @@
     text-underline-offset: 5px;
   }
 }
+
+@media (max-width: 436px) {
+  .introduce_text_wrapper {
+    margin: 0;
+    padding: 0;
+  }
+}

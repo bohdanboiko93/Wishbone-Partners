@@ -31,7 +31,7 @@
 .projects-list {
   margin-top: 40px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   column-gap: 18px;
 }
@@ -98,6 +98,8 @@
   }
 
   .featured-projects-box {
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 35px;
     padding-bottom: 35px;
     text-align: center;
@@ -114,6 +116,7 @@
 
   .projects-list {
     margin-top: 15px;
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     gap: 10px;
@@ -137,11 +140,6 @@
 }
 
 @media (max-width: 396px) {
-  .featured-projects-box {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .project {
     width: 100%;
   }

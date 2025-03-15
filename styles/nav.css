@@ -96,6 +96,10 @@
     display: flex;
   }
 
+  .logo {
+    width: 45%;
+  }
+
   .nav-list {
     display: none;
     flex-direction: column;

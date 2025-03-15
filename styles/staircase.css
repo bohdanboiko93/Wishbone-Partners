@@ -37,6 +37,7 @@
   .staircase_section {
     margin-top: 50px;
     height: 450px;
+    background-position: 35%;
   }
 
   .staircase_text_wrapper {

@@ -125,3 +125,13 @@
     text-underline-offset: 5px;
   }
 }
+
+@media (max-width: 436px) {
+  .projects_title {
+    font-size: 30px;
+  }
+
+  .projects_title_inner {
+    font-size: 18px;
+  }
+}

@@ -35,8 +35,9 @@
 
 @media (max-width: 767px) {
   .reeding_house_section {
-    margin-top: 65px;
+    margin-top: 45px;
     height: 450px;
+    background-position: 50%;
   }
 
   .house_text_wrapper {

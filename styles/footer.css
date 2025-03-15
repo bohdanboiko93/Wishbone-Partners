@@ -44,10 +44,22 @@
 
 @media (max-width: 436px) {
   .footer-box {
-    padding-top: 45px;
-    padding-bottom: 45px;
-    column-gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    column-gap: 30px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .wishbone_partners {
+    width: 80%;
+  }
+
+  .all_rights {
+    font-size: 12px;
+  }
+
+  .social-media-box {
+    gap: 16px;
   }
 }

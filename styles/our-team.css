@@ -80,7 +80,7 @@
 
   .our_team_title_text {
     padding-top: 10px;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .our_team_button {
@@ -89,5 +89,46 @@
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 5px;
+  }
+}
+
+@media (max-width: 436px) {
+  .our-team-section {
+    display: block;
+    padding: 0;
+  }
+
+  .our-team-text-wrapper {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .our_team_button {
+    padding: 0;
+    margin-top: 25px;
+  }
+
+  .our-team-peoples-list {
+    padding-top: 50px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+
+  .player {
+    padding-bottom: 15px;
+    flex: 1 1 calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .player:last-child:nth-child(odd) {
+    flex: 1 1 100%;
+    max-width: 50%;
+    margin: 0 auto;
   }
 }

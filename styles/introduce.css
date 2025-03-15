@@ -66,6 +66,29 @@
   text-decoration: none;
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .introduce_text_wrapper {
+    margin-left: 30px;
+    margin-top: 25px;
+  }
+
+  .firm {
+    padding-top: 25px;
+  }
+
+  .introduce-title {
+    font-size: 36px;
+  }
+
+  .introduce_text {
+    padding-right: 10px;
+  }
+
+  .introduce_image {
+    max-width: 50%;
+  }
+}
+
 @media (max-width: 767px) {
   .introduce {
     width: 100%;

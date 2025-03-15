@@ -36,6 +36,13 @@
   column-gap: 18px;
 }
 
+.project img,
+.project_brewery img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .project_brewery {
   position: relative;
 }
@@ -63,7 +70,9 @@
 }
 
 .brewery_button {
-  margin-top: 280px;
+  position: absolute;
+  bottom: 40px;
+  left: 45px;
   padding-top: 11px;
 
   display: block;

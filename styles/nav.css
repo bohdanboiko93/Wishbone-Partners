@@ -93,14 +93,14 @@
 
 @media (max-width: 436px) {
   .burger-menu {
-    display: flex; /* Показываем бургер только при разрешении 436px и меньше */
+    display: flex;
   }
 
   .nav-list {
-    display: none; /* Скрываем меню по умолчанию на мобильных устройствах */
+    display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px; /* Отступ от верхнего края */
+    top: 60px;
     right: 0;
     background: #fff;
     width: 100%;
@@ -109,7 +109,7 @@
   }
 
   .nav-list.active {
-    display: flex; /* Показываем меню при активации */
+    display: flex;
   }
 
   .burger-menu.active .burger-line:nth-child(1) {

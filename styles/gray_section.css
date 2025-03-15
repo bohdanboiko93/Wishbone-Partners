@@ -68,6 +68,7 @@
 
   .grey-section-box {
     display: block;
+    height: auto;
     width: 100%;
   }
 
@@ -86,11 +87,29 @@
 }
 
 @media (max-width: 436px) {
-  .grey-section-image-box {
-    display: none;
+  .grey-section {
+    height: 435px;
   }
 
-  .grey-section {
-    height: auto;
+  .grey-section-text-wrapper {
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+  }
+
+  .grey-section-image-box {
+    margin-top: 25px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+
+  .image-container {
+    flex: 1 1 calc(50% - 10px);
+    align-items: center;
+    text-align: center;
   }
 }

@@ -101,4 +101,8 @@
     margin: 0 auto;
     width: 75%;
   }
+
+  .process_img {
+    width: 40%;
+  }
 }
